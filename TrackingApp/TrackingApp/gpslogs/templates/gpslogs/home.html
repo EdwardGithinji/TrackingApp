@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tracker</title>
+</head>
+<header class="site-header">
+<a class="nav-item nav-link" href="{% url 'data' %}" target="_blank">Location Logs</a>
+</header>
+<body>
+<button onclick="location.href='{% url 'command' %}'" type="submit" formmethod="get">Track</button>
+</body>
+</html>
